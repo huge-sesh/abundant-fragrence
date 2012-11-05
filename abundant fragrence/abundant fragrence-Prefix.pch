@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'abundant fragrence' target in the 'abundant fragrence' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
