@@ -7,7 +7,15 @@
 //
 
 #import <ScreenSaver/ScreenSaver.h>
+#import "ConfigWindowController.h"
+@class ConfigWindowController;
 
 @interface abundant_fragrenceView : ScreenSaverView
-
+{
+    NSMutableArray* images;
+    //CIContext* context;
+    unsigned int step;
+    ConfigWindowController* configWindow;
+}
+- (IBAction) setPath:(NSString*) path;
 @end

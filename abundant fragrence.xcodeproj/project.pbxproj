@@ -11,7 +11,25 @@
 		1F3C56D21648565300C235D6 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3C56D11648565300C235D6 /* ScreenSaver.framework */; };
 		1F3C56DC1648565300C235D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C56DA1648565300C235D6 /* InfoPlist.strings */; };
 		1F3C56E01648565300C235D6 /* abundant_fragrenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C56DF1648565300C235D6 /* abundant_fragrenceView.m */; };
+		1F3C56F216485FC400C235D6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3C56F116485FC400C235D6 /* QuartzCore.framework */; };
+		1F3C56F41648610900C235D6 /* abundant fragrence.saver in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F3C56CC1648565300C235D6 /* abundant fragrence.saver */; };
+		1FE3BB781648744300BF2171 /* ConfigWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE3BB751648744300BF2171 /* ConfigWindowController.h */; };
+		1FE3BB791648744300BF2171 /* ConfigWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE3BB761648744300BF2171 /* ConfigWindowController.m */; };
+		1FE3BB7A1648744300BF2171 /* ConfigWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE3BB771648744300BF2171 /* ConfigWindowController.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F3C56F3164860F900C235D6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "/Library/Screen Savers/";
+			dstSubfolderSpec = 0;
+			files = (
+				1F3C56F41648610900C235D6 /* abundant fragrence.saver in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1F3C56CC1648565300C235D6 /* abundant fragrence.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "abundant fragrence.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,6 +43,10 @@
 		1F3C56DD1648565300C235D6 /* abundant fragrence-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "abundant fragrence-Prefix.pch"; sourceTree = "<group>"; };
 		1F3C56DE1648565300C235D6 /* abundant_fragrenceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = abundant_fragrenceView.h; sourceTree = "<group>"; };
 		1F3C56DF1648565300C235D6 /* abundant_fragrenceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = abundant_fragrenceView.m; sourceTree = "<group>"; };
+		1F3C56F116485FC400C235D6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1FE3BB751648744300BF2171 /* ConfigWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigWindowController.h; sourceTree = "<group>"; };
+		1FE3BB761648744300BF2171 /* ConfigWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigWindowController.m; sourceTree = "<group>"; };
+		1FE3BB771648744300BF2171 /* ConfigWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F3C56F216485FC400C235D6 /* QuartzCore.framework in Frameworks */,
 				1F3C56D01648565300C235D6 /* Cocoa.framework in Frameworks */,
 				1F3C56D21648565300C235D6 /* ScreenSaver.framework in Frameworks */,
 			);
@@ -43,6 +66,7 @@
 		1F3C56BF1648565300C235D6 = {
 			isa = PBXGroup;
 			children = (
+				1F3C56F116485FC400C235D6 /* QuartzCore.framework */,
 				1F3C56D71648565300C235D6 /* abundant fragrence */,
 				1F3C56CE1648565300C235D6 /* Frameworks */,
 				1F3C56CD1648565300C235D6 /* Products */,
@@ -82,6 +106,9 @@
 			children = (
 				1F3C56DE1648565300C235D6 /* abundant_fragrenceView.h */,
 				1F3C56DF1648565300C235D6 /* abundant_fragrenceView.m */,
+				1FE3BB751648744300BF2171 /* ConfigWindowController.h */,
+				1FE3BB761648744300BF2171 /* ConfigWindowController.m */,
+				1FE3BB771648744300BF2171 /* ConfigWindowController.xib */,
 				1F3C56D81648565300C235D6 /* Supporting Files */,
 			);
 			path = "abundant fragrence";
@@ -104,6 +131,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FE3BB781648744300BF2171 /* ConfigWindowController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +147,7 @@
 				1F3C56C81648565300C235D6 /* Headers */,
 				1F3C56C91648565300C235D6 /* Resources */,
 				1F3C56CA1648565300C235D6 /* Rez */,
+				1F3C56F3164860F900C235D6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -161,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F3C56DC1648565300C235D6 /* InfoPlist.strings in Resources */,
+				1FE3BB7A1648744300BF2171 /* ConfigWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F3C56E01648565300C235D6 /* abundant_fragrenceView.m in Sources */,
+				1FE3BB791648744300BF2171 /* ConfigWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +287,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/Frameworks/QuartzCore.framework/Versions/A/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "abundant fragrence/abundant fragrence-Prefix.pch";
 				INFOPLIST_FILE = "abundant fragrence/abundant fragrence-Info.plist";
@@ -269,6 +304,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/Frameworks/QuartzCore.framework/Versions/A/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "abundant fragrence/abundant fragrence-Prefix.pch";
 				INFOPLIST_FILE = "abundant fragrence/abundant fragrence-Info.plist";
@@ -297,6 +336,7 @@
 				1F3C56E51648565300C235D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
